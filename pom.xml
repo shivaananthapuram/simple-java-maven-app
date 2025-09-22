@@ -1,3 +1,5 @@
+
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -39,12 +41,11 @@
                 </configuration>
             </plugin>
         </plugins>
- </build>    
+    </build>
     <distributionManagement>
         <repository>
             <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
-            <url>http://13.211.168.245/repository/java-packages/</url>
+            <url>http://13.211.168.245/repository/java-application-package/</url>
         </repository>
     </distributionManagement>
 </project>
-
